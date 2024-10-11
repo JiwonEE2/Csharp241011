@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Collection.cs" />
+    <Compile Remove="Indexer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Collection.cs" />
+    <None Include="Indexer.cs" />
+  </ItemGroup>
+
 </Project>
